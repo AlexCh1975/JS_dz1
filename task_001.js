@@ -6,8 +6,7 @@
  */
 
 
-let temperCelsius = prompt('Введи значение температуры в градусах Цельсия: ', 0);
-prompt();
+let temperCelsius = prompt('Введи значение температуры в градусах Цельсия: ');
 let temperFahrenheit = (9 / 5) * temperCelsius + 32;
 
 console.log('Температура в Форенгейтах: ', temperFahrenheit);
